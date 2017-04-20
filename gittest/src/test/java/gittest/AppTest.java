@@ -16,7 +16,7 @@ public class AppTest {
 	
 	@BeforeTest
 	public void initialize() {
-		System.setProperty("webdriver.chrome.driver", "D://Git_Project//OrangeHRM//BrowserDrivers//chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "D://Git_Project//gittest//BrowserDrivers//chromedriver.exe");
 		
 	}
 	

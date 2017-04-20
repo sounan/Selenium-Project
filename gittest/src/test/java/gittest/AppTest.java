@@ -3,6 +3,7 @@ package gittest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 import org.testng.annotations.*;
 
 public class AppTest {
@@ -29,6 +30,12 @@ public class AppTest {
 		driver.findElement(By.id("txtUsername")).sendKeys("admin");
 		driver.findElement(By.id("txtPassword")).sendKeys("admin");
 		driver.findElement(By.id("btnLogin")).click();
+	}
+	
+	@Test
+	public void test2() {
+		
+		Assert.fail("Unknown Error");
 	}
 	
 	@AfterTest

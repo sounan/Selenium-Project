@@ -14,7 +14,7 @@ public class AppTest {
 	
 	private WebDriver driver;
 	
-	@BeforeClass
+	@BeforeTest
 	public void initialize() {
 		System.setProperty("webdriver.chrome.driver", "D://Git_Project//OrangeHRM//BrowserDrivers//chromedriver.exe");
 		
@@ -31,7 +31,7 @@ public class AppTest {
 		driver.findElement(By.id("btnLogin")).click();
 	}
 	
-	@AfterClass
+	@AfterTest
 	public void close() {
 		driver.quit();
 	}

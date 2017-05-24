@@ -24,7 +24,7 @@
 	<dependency>
 	  <groupId>org.testng</groupId>
 	  <artifactId>testng</artifactId>
-	  <version>6.9</version>
+	  <version>6.8</version>
 	  <scope>test</scope>
 	</dependency>
     
@@ -33,6 +33,7 @@
 	    <artifactId>selenium-java</artifactId>
 	    <version>2.53.0</version>
 	</dependency>
+
         <dependency>
             <groupId>org.apache.maven.surefire</groupId>
             <artifactId>surefire</artifactId>

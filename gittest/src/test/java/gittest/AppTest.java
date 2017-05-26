@@ -33,7 +33,7 @@ public class AppTest {
 	}
 	
 	@Test
-	public void failtest3() {
+	public void failtest1() {
 		
 		Assert.fail("Unknown Error");
 	}

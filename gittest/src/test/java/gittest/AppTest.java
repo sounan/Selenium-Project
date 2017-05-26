@@ -17,12 +17,12 @@ public class AppTest {
 	
 	@BeforeTest
 	public void initialize() {
-		System.setProperty("webdriver.chrome.driver", "D://Git_Project//gittest//BrowserDrivers//chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "//gittest//BrowserDrivers//chromedriver.exe");
 		
 	}
 	
 	@Test
-	public void test() {
+	public void webtest() {
 		
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
@@ -32,11 +32,11 @@ public class AppTest {
 		driver.findElement(By.id("btnLogin")).click();
 	}
 	
-//	@Test
-//	public void test2() {
+	@Test
+	public void failtest2() {
 		
-//		Assert.fail("Unknown Error");
-//	}
+		Assert.fail("Unknown Error");
+	}
 	
 	@AfterTest
 	public void close() {

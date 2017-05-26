@@ -22,7 +22,7 @@ public class AppTest {
 	}
 	
 	@Test
-	public void webtest() {
+	public void webtest1() {
 		
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
@@ -33,13 +33,13 @@ public class AppTest {
 	}
 	
 	@Test
-	public void failtest2() {
+	public void failtest3() {
 		
 		Assert.fail("Unknown Error");
 	}
 	
 	@AfterTest
-	public void close() {
+	public void close1() {
 		driver.quit();
 	}
 	

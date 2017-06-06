@@ -16,7 +16,7 @@ public class AppTest {
 //	private WebDriver driver;
 	
 	@BeforeTest
-	public void initialize() {
+	public void initialize2() {
 		
 		System.out.println("hello World 0");
 //		System.setProperty("webdriver.chrome.driver", "D://Git_Project//gittest//BrowserDrivers//chromedriver.exe");
@@ -24,7 +24,7 @@ public class AppTest {
 	}
 	
 	@Test
-	public void webtest1() {
+	public void webtest2() {
 		System.out.println("hello World 1");
 //		driver = new ChromeDriver();
 //		driver.manage().window().maximize();
@@ -41,7 +41,7 @@ public class AppTest {
 //	}
 	
 	@AfterTest
-	public void close1() {
+	public void close2() {
 //		driver.quit();
 		System.out.println("hello World 2");
 	}

@@ -34,7 +34,7 @@ public class AppTest {
 //		driver.findElement(By.id("btnLogin")).click();
 	}
 	
-	@Test
+//	@Test
 //	public void failtest1() {
 		
 //		Assert.fail("Unknown Error");

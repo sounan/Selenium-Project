@@ -34,11 +34,11 @@ public class AppTest {
 //		driver.findElement(By.id("btnLogin")).click();
 	}
 	
-//	@Test
-//	public void failtest1() {
+	@Test
+	public void failtest1() {
 		
-//		Assert.fail("Unknown Error");
-//	}
+		Assert.fail("Unknown Error");
+	}
 	
 	@AfterTest
 	public void close2() {

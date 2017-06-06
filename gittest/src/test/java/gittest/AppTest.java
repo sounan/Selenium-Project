@@ -18,14 +18,14 @@ public class AppTest {
 	@BeforeTest
 	public void initialize2() {
 		
-		System.out.println("hello World 0");
+		System.out.println("hello World 0.0");
 //		System.setProperty("webdriver.chrome.driver", "D://Git_Project//gittest//BrowserDrivers//chromedriver.exe");
 		
 	}
 	
 	@Test
 	public void webtest2() {
-		System.out.println("hello World 1");
+		System.out.println("hello World 1.0");
 //		driver = new ChromeDriver();
 //		driver.manage().window().maximize();
 //		driver.get("http://opensource.demo.orangehrmlive.com");
@@ -43,7 +43,7 @@ public class AppTest {
 	@AfterTest
 	public void close2() {
 //		driver.quit();
-		System.out.println("hello World 2");
+		System.out.println("hello World 2.0");
 	}
 	
 	

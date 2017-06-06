@@ -13,11 +13,11 @@ public class AppTest {
 //		System.out.println("This is a maven test");		
 //	}
 	
-	private WebDriver driver;
+//	private WebDriver driver;
 	
 	@BeforeTest
 	public void initialize() {
-		System.setProperty("webdriver.chrome.driver", "D://Git_Project//gittest//BrowserDrivers//chromedriver.exe");
+//		System.setProperty("webdriver.chrome.driver", "D://Git_Project//gittest//BrowserDrivers//chromedriver.exe");
 		
 	}
 	
@@ -41,6 +41,7 @@ public class AppTest {
 	@AfterTest
 	public void close1() {
 //		driver.quit();
+		System.out.println("hello World 2");
 	}
 	
 	

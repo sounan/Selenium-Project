@@ -16,15 +16,15 @@ public class AppTest {
 //	private WebDriver driver;
 	
 	@BeforeTest
-	public void initialize2() {
+	public void initialize() {
 		
 		System.out.println("hello World 0.0");
-//		System.setProperty("webdriver.chrome.driver", "D://Git_Project//gittest//BrowserDrivers//chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "D://Git_Project//gittest//BrowserDrivers//chromedriver.exe");
 		
 	}
 	
 	@Test
-	public void webtest2() {
+	public void webtest() {
 		System.out.println("hello World 1.0");
 //		driver = new ChromeDriver();
 //		driver.manage().window().maximize();
@@ -35,13 +35,13 @@ public class AppTest {
 	}
 	
 	@Test
-	public void failtest1() {
+	public void failtest() {
 		
 		Assert.fail("Unknown Error");
 	}
 	
 	@AfterTest
-	public void close2() {
+	public void close() {
 //		driver.quit();
 		System.out.println("hello World 2.0");
 	}

@@ -17,13 +17,15 @@ public class AppTest {
 	
 	@BeforeTest
 	public void initialize() {
+		
+		System.out.println("hello World 0");
 //		System.setProperty("webdriver.chrome.driver", "D://Git_Project//gittest//BrowserDrivers//chromedriver.exe");
 		
 	}
 	
 	@Test
 	public void webtest1() {
-		System.out.println("hello World");
+		System.out.println("hello World 1");
 //		driver = new ChromeDriver();
 //		driver.manage().window().maximize();
 //		driver.get("http://opensource.demo.orangehrmlive.com");

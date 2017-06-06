@@ -23,7 +23,7 @@ public class AppTest {
 		
 	}
 	
-	@Test
+	@Test (priority=1)
 	public void webtest() {
 		System.out.println("hello World 1.0");
 //		driver = new ChromeDriver();
@@ -34,7 +34,7 @@ public class AppTest {
 //		driver.findElement(By.id("btnLogin")).click();
 	}
 	
-	@Test
+	@Test (priority=2)
 	public void failtest() {
 		
 		Assert.fail("Unknown Error");
